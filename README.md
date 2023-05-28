@@ -29,7 +29,7 @@ Understand the key features that drive the price of a car. In order to do that, 
 
 ### Data Description
 
-The dataset contains the following attributes:
+The dataset contains the following columns:
 
 ```
  #   Column        Non-Null Count   Dtype  
@@ -58,13 +58,13 @@ The dataset contains the following attributes:
 
 #### 1. How price behave? Can we identify drivers by looking at the data?
 
-Super old cars (prob considered reliques) are pretty expensive - aside from that, newer cars are more expensive. Makes sense.
+Some super old cars (prob considered reliques) are pretty expensive - aside from that, newer cars are more expensive. Makes sense.
 
 <img src="images/price_vs_year.png" width="75%">
 
 Some Manufacturers also tend to be more expensive than others. Ferrari, Aston Martin, and Tesla are good examples of that.
 
-<img src="images/price_distribution_by_manufacturer.png" width="75%">
+<img src="images/price_distribution_by_manufacturer.png" width="100%">
 
 The condition of the car also plays a role in the price. New cars are on average pricier (which makes perfect sense). But it's important to mention that the analysis will be concentrated on "used" cars as is stablished in the business goals.
 
@@ -78,7 +78,7 @@ $\color{green}{Hypothesis}$ **The price of a car is driven by year, manufacturer
 
 #### 1. Data input
 
-A model was built taking into consideration the following characteristics:
+A couple models were built and optimized taking into consideration the following characteristics:
 
 ```
 #   Column        
@@ -98,7 +98,7 @@ A model was built taking into consideration the following characteristics:
  12  condition     
  13  odometer      
 ```
-Just some of the data was used to fit the model. A portion of the data (30% of the records) was saved for testing purposes and measure the accuracy of the model. 
+Just some of the data was used to train the model. A portion of the data (30% of the records) was saved for testing purposes to measure the accuracy of the model. 
 
 #### 2. Model design
 
@@ -107,11 +107,11 @@ A couple of models (Polinomial Regresion and Ridge) were used to predict Price. 
 #### 3. Model results
 
 
-The linear regression model, with a R^2 score of `0.8627478459281825` turn out to the best one of the two (with a MAE of 850). Giving the following results:
+The linear regression model, with a R^2 score of `0.8627478459281825` (with a MAE of 850) turned out to the best one of the two - I will explain what those numbers mean in the analysis. This model gave the following results:
 
 **analysing predictions**
 
-<img src="images/actual_vs_predicted.png" width="75%">
+<img src="images/actual_vs_predicted.png" width="100%">
 
 
 $\color{orange}{Analysis}$
@@ -126,7 +126,7 @@ $\color{orange}{Analysis}$
 The predictive model was analyzed to understand what factors were more important to calculate the price of the car. The results are the following:
 
 
-<img src="images/most_important_factors_driving_car_price.png" width="75%">
+<img src="images/most_important_factors_driving_car_price.png" width="100%">
 
 $\color{red}{Conclusion}$
 **The price of the car is driven by year, by model (not exactly manufacturer) and in less proportion, the "age" of the car reflected by the odometer.**
@@ -138,5 +138,5 @@ $\color{red}{Conclusion}$
 
 Here's are the most valuable models of 2021 as a head start:
 
-<img src="images/top_10_models_by_price_in_2021.png" width="75%">
+<img src="images/top_10_models_by_price_in_2021.png" width="100%">
 

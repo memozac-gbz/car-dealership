@@ -11,6 +11,11 @@ The goal of this project is to understand what factors make a car more or less e
 
 For this application, I will explore a dataset from kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing.
 
+**Disclaimer**
+
+This is a summary of my analysis, findings, and recommendations. The full analysis can be found [here](prompt.ipynb).
+
+
 ### Business Understanding
 
 **Business Objectives:**
@@ -106,13 +111,11 @@ A couple of models (Polinomial Regresion and Ridge) were used to predict Price. 
 
 #### 3. Model results
 
-
 The linear regression model, with a R^2 score of `0.8627478459281825` (with a MAE of 850) turned out to the best one of the two - I will explain what those numbers mean in the analysis. This model gave the following results:
 
 **analysing predictions**
 
 <img src="images/actual_vs_predicted.png" width="100%">
-
 
 $\color{orange}{Analysis}$
 
@@ -132,7 +135,7 @@ $\color{red}{Conclusion}$
 **The price of the car is driven by year, by model (not exactly manufacturer) and in less proportion, the "age" of the car reflected by the odometer.**
 
 
-## V. Recommendations
+## V. Next Steps & Recommendations
 
 **Concentrate on the year and the model of the car**: Pulling the list of newer most relevant models in your inventory and concentrate on having those would be the best approach for the dealership. Don't worry too much about the paint, the gast type, the cylinders or the transmission. Those features won't matter that much in the end.
 
@@ -140,3 +143,4 @@ Here's are the most valuable models of 2021 as a head start:
 
 <img src="images/top_10_models_by_price_in_2021.png" width="100%">
 
+**Dig deeper into the models database**: There's a lot of work to be done in the models database. The model is the most important feature of the car. Having a more complete database with more models and more information about them would increase the model's capacity to predict price accurately.

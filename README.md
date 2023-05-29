@@ -73,7 +73,7 @@ Some Manufacturers also tend to be more expensive than others. Ferrari, Aston Ma
 
 The condition of the car also plays a role in the price. New cars are on average pricier (which makes perfect sense). But it's important to mention that the analysis will be concentrated on "used" cars as is stablished in the business goals.
 
-<img src="images/price_distribution_by_fuel.png" width="75%">
+<img src="images/price_distribution_by_fuel.png" width="100%">
 
 ## II. Hypotesis
 

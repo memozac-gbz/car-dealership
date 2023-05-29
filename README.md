@@ -65,7 +65,7 @@ The dataset contains the following columns:
 
 Some super old cars (prob considered reliques) are pretty expensive - aside from that, newer cars are more expensive. Makes sense.
 
-<img src="images/price_vs_year.png" width="75%">
+<img src="images/price_vs_year.png" width="100%">
 
 Some Manufacturers also tend to be more expensive than others. Ferrari, Aston Martin, and Tesla are good examples of that.
 

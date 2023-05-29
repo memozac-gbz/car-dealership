@@ -132,7 +132,7 @@ The predictive model was analyzed to understand what factors were more important
 <img src="images/most_important_factors_driving_car_price.png" width="100%">
 
 $\color{red}{Conclusion}$
-**The price of the car is driven by year, by model (not exactly manufacturer) and in less proportion, the "age" of the car reflected by the odometer.**
+The price of the car is driven by year, by model (not exactly manufacturer) and in less proportion, the "age" of the car reflected by the odometer.
 
 
 ## V. Next Steps & Recommendations

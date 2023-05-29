@@ -143,4 +143,4 @@ Here's are the most valuable models of 2021 as a head start:
 
 <img src="images/top_10_models_by_price_in_2021.png" width="100%">
 
-**Dig deeper into the models database**: There's a lot of work to be done in the models database. The model is the most important feature of the car. Having a more complete database with more models and more information about them would increase the model's capacity to predict price accurately.
+**Dig deeper into the models database**: There's a lot of work to be done in the car models database. Car model is the most important feature of the car. Having a more complete database with more models and more information about them would increase the chances of predicting a car's price.
